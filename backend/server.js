@@ -2,6 +2,7 @@ const app = require("./app");
 const cloudinary = require("cloudinary");
 const dotenv = require("dotenv");
 const connectDatabse = require("./config/database");
+const cors = require("cors");
 
 
 // Handling Uncought Exception ---> when you declare irrelevant console.log(youtube);
@@ -18,6 +19,9 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
 
 // database
 connectDatabse();
+app.use(cors());
+
+
 
 cloudinary.config({
     cloud_name: process.env.CLOUDINARY_NAME,
