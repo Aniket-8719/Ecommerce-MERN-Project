@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef8db900.css",
+    "main.js": "/static/js/main.da28159a.js",
+    "static/media/Apple_watch-experience-for-entire-family-hero_09152020_big.jpg.large.jpg": "/static/media/Apple_watch-experience-for-entire-family-hero_09152020_big.jpg.large.8e697e519d73c966f9dd.jpg",
+    "static/media/redux.cjs": "/static/media/redux.7edfc461ab353f1712ab.cjs",
+    "index.html": "/index.html",
+    "main.ef8db900.css.map": "/static/css/main.ef8db900.css.map",
+    "main.da28159a.js.map": "/static/js/main.da28159a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef8db900.css",
+    "static/js/main.da28159a.js"
+  ]
+}
